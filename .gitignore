@@ -1,0 +1,6 @@
+debian/stsbl-iserv-server-dhcprelay/*
+debian/stsbl-iserv-server-dhcprelay.substvars
+debian/stsbl-iserv-server-dhcprelay.debhelper.log
+debian/files
+debian/debhelper-build-stamp
+debian/*.debhelper

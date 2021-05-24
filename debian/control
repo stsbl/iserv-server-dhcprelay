@@ -1,0 +1,20 @@
+Source: stsbl-iserv-server-dhcprelay
+Section: misc
+Priority: optional
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-iserv,
+ dh-sequence-stsbl,
+Standards-Version: 4.5.0
+
+Package: stsbl-iserv-server-dhcprelay
+Architecture: all
+Depends: ${misc:Depends},
+  ${perl:Depends},
+  isc-dhcp-relay,
+  iserv-update,
+Description: IServ DHCP-Relay-Server
+ Konfiguriert einen Server zum Weiterleiten von DHCP-Anfragen über
+ Netzwerkgrenzen.
+Tag: suite::iserv
