@@ -1,0 +1,15 @@
+DHCPRelay:
+name		Enable DHCP relay server
+description	Determines on which network interfaces IServ acts as DHCP relay server.\n\nall LANs (default): *\nspecific interfaces: eth0 eth1\ndisable DHCP relay: empty\n\nIf you want to specify multiple interfaces, enter one interface per line.
+group		Network
+type		array
+default		(*)
+readonly	true
+
+DHCPRelayServers:
+name		Servers to forward DHCP requests to
+description	DHCP requests accepted by the DHCP relay server are passed to the following IPv4 addresses.\n\One IPv4 address per line.
+group		Network
+type		array
+default		()
+readonly	true

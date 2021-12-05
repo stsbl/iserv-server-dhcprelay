@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-05 02:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/80server-dhcprelay
+msgid ""
+"DHCP requests accepted by the DHCP relay server are passed to the following "
+"IPv4 addresses.\\n\\One IPv4 address per line."
+msgstr ""
+
+#: config/80server-dhcprelay
+msgid ""
+"Determines on which network interfaces IServ acts as DHCP relay server.\\n"
+"\\nall LANs (default): *\\nspecific interfaces: eth0 eth1\\ndisable DHCP "
+"relay: empty\\n\\nIf you want to specify multiple interfaces, enter one "
+"interface per line."
+msgstr ""
+
+#: config/80server-dhcprelay
+msgid "Enable DHCP relay server"
+msgstr ""
+
+#: config/80server-dhcprelay
+msgid "Network"
+msgstr ""
+
+#: config/80server-dhcprelay
+msgid "Servers to forward DHCP requests to"
+msgstr ""

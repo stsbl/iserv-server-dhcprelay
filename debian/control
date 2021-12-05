@@ -13,6 +13,7 @@ Architecture: all
 Depends: ${misc:Depends},
   ${perl:Depends},
   isc-dhcp-relay,
+  iserv-config-file,
   iserv-update,
 Description: IServ DHCP-Relay-Server
  Konfiguriert einen Server zum Weiterleiten von DHCP-Anfragen über
