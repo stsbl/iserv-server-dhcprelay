@@ -7,6 +7,7 @@ Build-Depends:
  dh-sequence-iserv,
  dh-sequence-stsbl,
 Standards-Version: 4.5.0
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-server-dhcprelay
 Architecture: all
